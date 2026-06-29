@@ -16,6 +16,13 @@
 - Description: 大规模机器人操作数据集，包含多环境、多任务轨迹。
 - Use case: 模仿学习、离线强化学习、语言条件机器人操作。
 
+## DROID
+
+- Paper: https://arxiv.org/abs/2403.12945
+- Project: https://droid-dataset.github.io/
+- Description: 大规模 in-the-wild 机器人操作数据集，强调真实世界采集、多任务、多场景和跨环境泛化。
+- Use case: VLA 训练、真实机器人模仿学习、跨场景操作泛化。
+
 ## LIBERO
 
 - Paper: https://arxiv.org/abs/2306.03310
@@ -29,6 +36,12 @@
 - Code: https://github.com/ARISE-Initiative/robomimic
 - Description: 模仿学习基准和相关数据集工具。
 - Use case: 行为克隆、离线策略学习、机器人操作算法评估。
+
+## BEHAVIOR
+
+- Project: https://behavior.stanford.edu/
+- Description: 面向家庭环境长时程任务和日常活动的大规模 benchmark，强调 embodied agents 在复杂场景中的评估。
+- Use case: household activity benchmark、具身 agent 评测、复杂任务规划与执行。
 
 ## Dataset Checklist
 

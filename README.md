@@ -25,6 +25,8 @@
 | [开源项目](projects/README.md) | LeRobot、OpenVLA、Octo、robosuite、ManiSkill 等 |
 | [数据集](datasets/README.md) | Open X-Embodiment、BridgeData V2、LIBERO 等 |
 | [课程](courses/README.md) | 机器人学习、深度强化学习、具身 AI 相关课程 |
+| [中文导读](notes/pi0-cn.md) | 一篇从 openpi / pi0 切入的 VLA 中文速读 |
+| [内容选题](content/from-openvla-to-pi0-outline.md) | 一篇可直接发布的内容衍生标题和大纲 |
 
 ## 方向地图
 
@@ -61,6 +63,8 @@ Embodied AI
 - OpenVLA: An Open-Source Vision-Language-Action Model
 - Octo: An Open-Source Generalist Robot Policy
 - VIMA: General Robot Manipulation with Multimodal Prompts
+- Diffusion Policy: Visuomotor Policy Learning via Action Diffusion
+- pi0: A Vision-Language-Action Flow Model for General Robot Control
 
 ### 开源项目 / 工具
 
@@ -71,6 +75,17 @@ Embodied AI
 - [robomimic](https://github.com/ARISE-Initiative/robomimic)
 - [ManiSkill](https://github.com/haosulab/ManiSkill)
 - [LIBERO](https://github.com/Lifelong-Robot-Learning/LIBERO)
+- [openpi](https://github.com/Physical-Intelligence/openpi)
+- [Isaac Lab](https://github.com/isaac-sim/IsaacLab)
+- [RoboCasa](https://robocasa.ai/)
+
+## 本周新增
+
+- 新增论文：Diffusion Policy、pi0
+- 新增项目：openpi、Isaac Lab、RoboCasa
+- 新增数据集：DROID、BEHAVIOR
+- 新增课程：Stanford CS237B
+- 新增中文导读：[openpi / pi0 中文笔记](notes/pi0-cn.md)
 
 ## 后续计划
 

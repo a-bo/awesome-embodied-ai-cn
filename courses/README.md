@@ -16,6 +16,12 @@
 - Focus: deep reinforcement learning
 - Good for: 强化学习基础、策略梯度、离线 RL、模仿学习。
 
+### Stanford CS237B: Principles of Robot Autonomy II
+
+- Link: http://web.stanford.edu/class/cs237b/
+- Focus: robot autonomy, manipulation, imitation learning, ROS-based practice
+- Good for: 更贴近具身智能工程实践，适合作为机器人学习、操作任务和自主系统课程补充。
+
 ### CMU 16-385: Computer Vision
 
 - Link: https://16385.courses.cs.cmu.edu/

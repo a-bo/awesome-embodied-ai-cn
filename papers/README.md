@@ -29,6 +29,13 @@
 - Topic: open-source VLA, robot manipulation
 - Why it matters: 开源 VLA 代表工作之一，适合做复现和微调实验。
 
+### pi0: A Vision-Language-Action Flow Model for General Robot Control
+
+- Link: https://arxiv.org/abs/2410.24164
+- Code: https://github.com/Physical-Intelligence/openpi
+- Topic: VLA, flow matching, general robot control
+- Why it matters: 代表新一代 VLA 路线，兼具论文价值和开源工程入口，适合连接模型理解、微调和真实机器人实践。
+
 ## Generalist Robot Policy
 
 ### Open X-Embodiment: Robotic Learning Datasets and RT-X Models
@@ -54,6 +61,15 @@
 - Topic: multimodal prompts, tabletop manipulation
 - Why it matters: 用文本和视觉 prompt 描述机器人任务，是理解多模态任务规范的重要工作。
 
+## Policy Learning
+
+### Diffusion Policy: Visuomotor Policy Learning via Action Diffusion
+
+- Link: https://arxiv.org/abs/2303.04137
+- Project: https://diffusion-policy.cs.columbia.edu/
+- Topic: visuomotor policy learning, action diffusion, manipulation
+- Why it matters: 是现代机器人操作策略学习的重要基线之一，理解它有助于连接模仿学习、生成式策略和操作任务复现。
+
 ## Lifelong / Continual Robot Learning
 
 ### LIBERO: Benchmarking Knowledge Transfer for Lifelong Robot Learning
@@ -69,11 +85,11 @@
 建议阅读顺序：
 
 ```text
-RT-1 -> PaLM-E -> RT-2 -> Open X-Embodiment -> OpenVLA -> Octo -> LIBERO
+RT-1 -> PaLM-E -> RT-2 -> Open X-Embodiment -> OpenVLA -> Octo -> pi0 -> LIBERO
 ```
 
 如果目标是工程实践，优先看：
 
 ```text
-LeRobot / OpenVLA / Octo / ManiSkill / LIBERO
+LeRobot / OpenVLA / Octo / openpi / ManiSkill / LIBERO
 ```
