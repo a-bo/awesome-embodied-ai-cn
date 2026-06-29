@@ -25,7 +25,7 @@
 | [开源项目](projects/README.md) | LeRobot、OpenVLA、Octo、robosuite、ManiSkill 等 |
 | [数据集](datasets/README.md) | Open X-Embodiment、BridgeData V2、LIBERO 等 |
 | [课程](courses/README.md) | 机器人学习、深度强化学习、具身 AI 相关课程 |
-| [中文导读](notes/README.md) | RT-1、OpenVLA、pi0 等论文 / 项目中文笔记 |
+| [中文导读](notes/README.md) | RT-1、RT-2、Open X、OpenVLA、Octo、pi0 中文笔记 |
 | [内容选题](content/from-openvla-to-pi0-outline.md) | 一篇可直接发布的内容衍生标题和大纲 |
 
 ## 方向地图
@@ -85,7 +85,7 @@ Embodied AI
 - 新增项目：openpi、Isaac Lab、RoboCasa
 - 新增数据集：DROID、BEHAVIOR
 - 新增课程：Stanford CS237B
-- 新增中文导读：[RT-1](notes/rt1-cn.md)、[OpenVLA](notes/openvla-cn.md)、[openpi / pi0](notes/pi0-cn.md)
+- 新增中文导读：[RT-1](notes/rt1-cn.md)、[RT-2](notes/rt2-cn.md)、[Open X](notes/open-x-embodiment-cn.md)、[OpenVLA](notes/openvla-cn.md)、[Octo](notes/octo-cn.md)、[openpi / pi0](notes/pi0-cn.md)
 
 ## 后续计划
 
