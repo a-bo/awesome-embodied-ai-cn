@@ -28,6 +28,12 @@
 - Type: open-source VLA stack and checkpoints
 - Why it matters: 提供 pi0、pi0-FAST、pi0.5 等模型和 DROID / ALOHA / LIBERO 相关示例，是理解和复现新一代 VLA 的直接入口。
 
+### SmolVLA
+
+- Link: https://huggingface.co/blog/smolvla
+- Type: compact VLA model and LeRobot-based training / deployment path
+- Why it matters: 强调 affordability 和 efficiency，适合作为小团队、个人开发者和教育场景里的 VLA 起点。
+
 ## Simulation / Benchmark
 
 ### ManiSkill
@@ -41,6 +47,12 @@
 - Link: https://github.com/isaac-sim/IsaacLab
 - Type: GPU-accelerated robotics research framework
 - Why it matters: 适合做大规模仿真、RL、模仿学习和 sim-to-real 工作流，补齐了当前列表在工业级仿真工具上的空白。
+
+### Mobile ALOHA
+
+- Link: https://mobile-aloha.github.io/
+- Type: low-cost mobile manipulation platform and data collection setup
+- Why it matters: 把双臂操作、移动底盘和低成本真实机器人采集路线结合起来，是个人开发者进入真实机器人操作实践的重要案例。
 
 ### robosuite
 
@@ -66,6 +78,14 @@
 - Type: large-scale household manipulation benchmark
 - Why it matters: 聚焦家庭场景操作任务，适合研究通用机器人在复杂 household 环境中的训练与评测。
 
+## Humanoid / Foundation Platforms
+
+### NVIDIA Isaac GR00T
+
+- Link: https://developer.nvidia.com/isaac/gr00t
+- Type: humanoid robot foundation model and development platform
+- Why it matters: 补齐当前列表在人形机器人基础模型和产业级开发平台上的空白，适合跟进 embodied foundation model 的新方向。
+
 ## Suggested Starter Projects
 
 ### 1. Run a Robot Manipulation Demo
@@ -74,7 +94,7 @@
 
 ### 2. Fine-tune a Robot Policy
 
-使用 LeRobot / OpenVLA / Octo / openpi 在公开数据集上做小规模微调。
+使用 LeRobot / OpenVLA / Octo / openpi / SmolVLA 在公开数据集上做小规模微调。
 
 ### 3. Build a Robot Agent
 
@@ -83,3 +103,7 @@
 ### 4. ROS2 + AI Robot Kit
 
 用 ROS2 接入语音指令、视觉识别和基础导航，做一个 AI 机器人开发模板。
+
+### 5. Low-Cost Real Robot Route
+
+从 `ACT -> Mobile ALOHA -> SmolVLA` 这条线切入，先理解行为克隆和动作分块，再考虑数据采集、部署和真实机器人适配。

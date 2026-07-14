@@ -40,10 +40,16 @@
 - Topic: next-generation VLA, flow matching, general robot control
 - Why read: 适合理解新一代 VLA 如何从论文热点走向公开工程入口。
 
+### SmolVLA
+
+- Link: [smolvla-cn.md](smolvla-cn.md)
+- Topic: affordable VLA, efficient robotics, low-cost reproduction path
+- Why read: 适合从“普通开发者到底能不能做具身智能复现”这个角度理解一条更现实的工程路径。
+
 ## 推荐阅读顺序
 
 ```text
-RT-1 -> RT-2 -> Open X-Embodiment -> OpenVLA -> Octo -> pi0
+RT-1 -> RT-2 -> Open X-Embodiment -> OpenVLA -> Octo -> pi0 -> SmolVLA
 ```
 
 如果你偏研究，先看模型路线差异。  

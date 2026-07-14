@@ -29,6 +29,13 @@
 - Topic: open-source VLA, robot manipulation
 - Why it matters: 开源 VLA 代表工作之一，适合做复现和微调实验。
 
+### SmolVLA: A Vision-Language-Action Model for Affordable and Efficient Robotics
+
+- Link: https://arxiv.org/abs/2506.01844
+- Project: https://huggingface.co/blog/smolvla
+- Topic: lightweight VLA, efficient robotics, community-scale reproduction
+- Why it matters: 比大型 VLA 更强调低成本和高效率，适合作为个人开发者和小团队进入具身智能实践的新入口。
+
 ### pi0: A Vision-Language-Action Flow Model for General Robot Control
 
 - Link: https://arxiv.org/abs/2410.24164
@@ -63,6 +70,13 @@
 
 ## Policy Learning
 
+### ACT: Action Chunking with Transformers
+
+- Link: https://arxiv.org/abs/2304.13705
+- Project: https://tonyzhaozh.github.io/aloha/
+- Topic: behavior cloning, action chunking, bimanual manipulation
+- Why it matters: 是 ALOHA / Mobile ALOHA 路线的重要基础工作，补齐了当前列表里低成本真实机器人操作的经典方法线。
+
 ### Diffusion Policy: Visuomotor Policy Learning via Action Diffusion
 
 - Link: https://arxiv.org/abs/2303.04137
@@ -85,11 +99,11 @@
 建议阅读顺序：
 
 ```text
-RT-1 -> PaLM-E -> RT-2 -> Open X-Embodiment -> OpenVLA -> Octo -> pi0 -> LIBERO
+RT-1 -> PaLM-E -> RT-2 -> Open X-Embodiment -> OpenVLA -> Octo -> pi0 -> SmolVLA -> ACT -> LIBERO
 ```
 
 如果目标是工程实践，优先看：
 
 ```text
-LeRobot / OpenVLA / Octo / openpi / ManiSkill / LIBERO
+LeRobot / OpenVLA / Octo / openpi / SmolVLA / ManiSkill / LIBERO
 ```

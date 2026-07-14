@@ -22,6 +22,12 @@
 - Focus: robot autonomy, manipulation, imitation learning, ROS-based practice
 - Good for: 更贴近具身智能工程实践，适合作为机器人学习、操作任务和自主系统课程补充。
 
+### MIT Underactuated Robotics
+
+- Link: https://underactuated.csail.mit.edu/
+- Focus: dynamics, control, planning, optimization
+- Good for: 给具身智能补控制与动力学基础，尤其适合希望从“会调模型”走向“能理解机器人系统约束”的读者。
+
 ### CMU 16-385: Computer Vision
 
 - Link: https://16385.courses.cs.cmu.edu/

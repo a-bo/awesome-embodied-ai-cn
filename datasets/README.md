@@ -23,6 +23,12 @@
 - Description: 大规模 in-the-wild 机器人操作数据集，强调真实世界采集、多任务、多场景和跨环境泛化。
 - Use case: VLA 训练、真实机器人模仿学习、跨场景操作泛化。
 
+## AgiBot World
+
+- Paper: https://arxiv.org/abs/2503.06669
+- Description: 面向通用机器人学习的大规模真实世界数据集，强调多机器人、多任务和真实操作场景覆盖。
+- Use case: 通用策略训练、真实世界模仿学习、跨任务泛化评测。
+
 ## LIBERO
 
 - Paper: https://arxiv.org/abs/2306.03310

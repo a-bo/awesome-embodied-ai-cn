@@ -22,11 +22,11 @@
 | --- | --- |
 | [学习路线](roadmap/embodied-ai-roadmap-cn.md) | 从 AI 基础到具身智能项目实践 |
 | [论文](papers/README.md) | VLA、Manipulation、Navigation、World Model 等方向 |
-| [开源项目](projects/README.md) | LeRobot、OpenVLA、Octo、robosuite、ManiSkill 等 |
+| [开源项目](projects/README.md) | LeRobot、OpenVLA、Octo、SmolVLA、ManiSkill 等 |
 | [数据集](datasets/README.md) | Open X-Embodiment、BridgeData V2、LIBERO 等 |
 | [课程](courses/README.md) | 机器人学习、深度强化学习、具身 AI 相关课程 |
-| [中文导读](notes/README.md) | RT-1、RT-2、Open X、OpenVLA、Octo、pi0 中文笔记 |
-| [内容选题](content/from-openvla-to-pi0-outline.md) | 一篇可直接发布的内容衍生标题和大纲 |
+| [中文导读](notes/README.md) | RT-1、RT-2、Open X、OpenVLA、Octo、pi0、SmolVLA 中文笔记 |
+| [内容选题](content/act-mobile-aloha-smolvla-outline.md) | 一篇聚焦低成本具身智能复现路线的内容大纲 |
 
 ## 方向地图
 
@@ -63,8 +63,10 @@ Embodied AI
 - OpenVLA: An Open-Source Vision-Language-Action Model
 - Octo: An Open-Source Generalist Robot Policy
 - VIMA: General Robot Manipulation with Multimodal Prompts
+- ACT: Action Chunking with Transformers
 - Diffusion Policy: Visuomotor Policy Learning via Action Diffusion
 - pi0: A Vision-Language-Action Flow Model for General Robot Control
+- SmolVLA: A Vision-Language-Action Model for Affordable and Efficient Robotics
 
 ### 开源项目 / 工具
 
@@ -76,16 +78,20 @@ Embodied AI
 - [ManiSkill](https://github.com/haosulab/ManiSkill)
 - [LIBERO](https://github.com/Lifelong-Robot-Learning/LIBERO)
 - [openpi](https://github.com/Physical-Intelligence/openpi)
+- [SmolVLA](https://huggingface.co/blog/smolvla)
 - [Isaac Lab](https://github.com/isaac-sim/IsaacLab)
+- [Mobile ALOHA](https://mobile-aloha.github.io/)
+- [NVIDIA Isaac GR00T](https://developer.nvidia.com/isaac/gr00t)
 - [RoboCasa](https://robocasa.ai/)
 
 ## 本周新增
 
-- 新增论文：Diffusion Policy、pi0
-- 新增项目：openpi、Isaac Lab、RoboCasa
-- 新增数据集：DROID、BEHAVIOR
-- 新增课程：Stanford CS237B
-- 新增中文导读：[RT-1](notes/rt1-cn.md)、[RT-2](notes/rt2-cn.md)、[Open X](notes/open-x-embodiment-cn.md)、[OpenVLA](notes/openvla-cn.md)、[Octo](notes/octo-cn.md)、[openpi / pi0](notes/pi0-cn.md)
+- 新增论文：ACT、SmolVLA
+- 新增项目：SmolVLA、Mobile ALOHA、NVIDIA Isaac GR00T
+- 新增数据集：AgiBot World
+- 新增课程：MIT Underactuated Robotics
+- 新增中文导读：[SmolVLA](notes/smolvla-cn.md)
+- 新增内容选题：[从 ACT、Mobile ALOHA 到 SmolVLA](content/act-mobile-aloha-smolvla-outline.md)
 
 ## 后续计划
 
