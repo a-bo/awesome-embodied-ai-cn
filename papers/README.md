@@ -36,6 +36,18 @@
 - Topic: lightweight VLA, efficient robotics, community-scale reproduction
 - Why it matters: 比大型 VLA 更强调低成本和高效率，适合作为个人开发者和小团队进入具身智能实践的新入口。
 
+### Embodied-R1.5: Evolving Physical Intelligence via Embodied Foundation Models
+
+- Link: https://arxiv.org/abs/2606.11324
+- Topic: embodied foundation model, embodied reasoning, planning, correction, grounding
+- Why it matters: 它不只是继续做更强的 VLA，而是把 embodied reasoning、task planning、correction 和 grounding 更明确地收进同一个 physical intelligence 闭环里。
+
+### Embodied.cpp: A Portable Inference Runtime of Embodied AI Models on Heterogeneous Robots
+
+- Link: https://arxiv.org/abs/2607.02501
+- Topic: embodied inference runtime, heterogeneous robots, deployment
+- Why it matters: 补上了当前列表里相对缺失的“运行时与部署”视角，帮助读者理解 embodied AI 真正落地时为什么不仅是训练模型。
+
 ### pi0: A Vision-Language-Action Flow Model for General Robot Control
 
 - Link: https://arxiv.org/abs/2410.24164
@@ -94,12 +106,20 @@
 - Topic: lifelong robot learning benchmark
 - Why it matters: 提供持续学习和任务迁移场景，适合评估机器人策略泛化。
 
+## Embodied Navigation / Agent Loop
+
+### Uni-LaViRA: Language-Vision-Robot Actions Translation for Unified Embodied Navigation
+
+- Link: https://arxiv.org/abs/2605.27582
+- Topic: embodied navigation, agent loop, zero-shot robot navigation
+- Why it matters: 当前仓库更偏 manipulation 和 policy 学习，`Uni-LaViRA` 则补上了 navigation、task memory 和 self-correction 这条 embodied agent 路线。
+
 ## Reading Tips
 
 建议阅读顺序：
 
 ```text
-RT-1 -> PaLM-E -> RT-2 -> Open X-Embodiment -> OpenVLA -> Octo -> pi0 -> SmolVLA -> ACT -> LIBERO
+RT-1 -> PaLM-E -> RT-2 -> Open X-Embodiment -> OpenVLA -> Octo -> pi0 -> SmolVLA -> Embodied-R1.5 -> ACT -> Uni-LaViRA -> LIBERO
 ```
 
 如果目标是工程实践，优先看：

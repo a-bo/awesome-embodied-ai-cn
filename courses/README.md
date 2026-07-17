@@ -28,6 +28,12 @@
 - Focus: dynamics, control, planning, optimization
 - Good for: 给具身智能补控制与动力学基础，尤其适合希望从“会调模型”走向“能理解机器人系统约束”的读者。
 
+### MIT Robotic Manipulation
+
+- Link: https://manipulation.csail.mit.edu/
+- Focus: manipulation, perception, planning, control, system integration
+- Good for: 补齐机械臂操作这一条最重要的工程路线，适合把视觉、运动规划、控制和真实机器人系统串起来理解。
+
 ### CMU 16-385: Computer Vision
 
 - Link: https://16385.courses.cs.cmu.edu/

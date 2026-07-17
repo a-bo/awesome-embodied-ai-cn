@@ -25,8 +25,9 @@
 | [开源项目](projects/README.md) | LeRobot、OpenVLA、Octo、SmolVLA、ManiSkill 等 |
 | [数据集](datasets/README.md) | Open X-Embodiment、BridgeData V2、LIBERO 等 |
 | [课程](courses/README.md) | 机器人学习、深度强化学习、具身 AI 相关课程 |
-| [中文导读](notes/README.md) | RT-1、RT-2、Open X、OpenVLA、Octo、pi0、SmolVLA 中文笔记 |
-| [内容选题](content/act-mobile-aloha-smolvla-outline.md) | 一篇聚焦低成本具身智能复现路线的内容大纲 |
+| [中文导读](notes/README.md) | RT-1、RT-2、Open X、OpenVLA、Octo、pi0、SmolVLA、Embodied-R1.5 中文笔记 |
+| [内容选题：低成本路线](content/act-mobile-aloha-smolvla-outline.md) | 一篇聚焦低成本具身智能复现路线的内容大纲 |
+| [内容选题：闭环智能](content/openvla-pi0-embodied-r1-5-outline.md) | 一篇聚焦具身智能从动作预测走向闭环纠错的大纲 |
 
 ## 方向地图
 
@@ -67,6 +68,9 @@ Embodied AI
 - Diffusion Policy: Visuomotor Policy Learning via Action Diffusion
 - pi0: A Vision-Language-Action Flow Model for General Robot Control
 - SmolVLA: A Vision-Language-Action Model for Affordable and Efficient Robotics
+- Embodied-R1.5: Evolving Physical Intelligence via Embodied Foundation Models
+- Embodied.cpp: A Portable Inference Runtime of Embodied AI Models on Heterogeneous Robots
+- Uni-LaViRA: Language-Vision-Robot Actions Translation for Unified Embodied Navigation
 
 ### 开源项目 / 工具
 
@@ -79,6 +83,7 @@ Embodied AI
 - [LIBERO](https://github.com/Lifelong-Robot-Learning/LIBERO)
 - [openpi](https://github.com/Physical-Intelligence/openpi)
 - [SmolVLA](https://huggingface.co/blog/smolvla)
+- [AhaRobot](https://aha-robot.github.io/)
 - [Isaac Lab](https://github.com/isaac-sim/IsaacLab)
 - [Mobile ALOHA](https://mobile-aloha.github.io/)
 - [NVIDIA Isaac GR00T](https://developer.nvidia.com/isaac/gr00t)
@@ -86,12 +91,12 @@ Embodied AI
 
 ## 本周新增
 
-- 新增论文：ACT、SmolVLA
-- 新增项目：SmolVLA、Mobile ALOHA、NVIDIA Isaac GR00T
-- 新增数据集：AgiBot World
-- 新增课程：MIT Underactuated Robotics
-- 新增中文导读：[SmolVLA](notes/smolvla-cn.md)
-- 新增内容选题：[从 ACT、Mobile ALOHA 到 SmolVLA](content/act-mobile-aloha-smolvla-outline.md)
+- 新增论文：ACT、SmolVLA、Embodied-R1.5、Embodied.cpp、Uni-LaViRA
+- 新增项目：SmolVLA、Mobile ALOHA、NVIDIA Isaac GR00T、AhaRobot、EmbodiedEvalKit
+- 新增数据集：AgiBot World、SABER、Embodied-R1.5 Datasets
+- 新增课程：MIT Underactuated Robotics、MIT Robotic Manipulation
+- 新增中文导读：[SmolVLA](notes/smolvla-cn.md)、[Embodied-R1.5](notes/embodied-r1.5-cn.md)
+- 新增内容选题：[从 ACT、Mobile ALOHA 到 SmolVLA](content/act-mobile-aloha-smolvla-outline.md)、[从 OpenVLA、pi0 到 Embodied-R1.5](content/openvla-pi0-embodied-r1-5-outline.md)
 
 ## 后续计划
 
