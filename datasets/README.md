@@ -29,6 +29,19 @@
 - Description: 面向通用机器人学习的大规模真实世界数据集，强调多机器人、多任务和真实操作场景覆盖。
 - Use case: 通用策略训练、真实世界模仿学习、跨任务泛化评测。
 
+## SABER
+
+- Paper: https://arxiv.org/abs/2605.09613
+- Project: https://dreamvu.ai/saber
+- Description: 面向零售货架环境的具身智能数据集与评测资源，强调复杂商业场景中的感知、定位与交互任务。
+- Use case: retail embodied learning、真实场景操作与导航、垂直行业机器人评测。
+
+## Embodied-R1.5 Datasets
+
+- Paper: https://arxiv.org/abs/2606.11324
+- Description: 与 `Embodied-R1.5` 配套的数据系统，覆盖 embodied cognition、planning、correction 和 grounding 等关键能力。
+- Use case: embodied reasoning 训练、闭环纠错、多任务 physical intelligence 数据构建参考。
+
 ## LIBERO
 
 - Paper: https://arxiv.org/abs/2306.03310

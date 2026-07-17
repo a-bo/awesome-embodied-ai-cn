@@ -34,6 +34,12 @@
 - Type: compact VLA model and LeRobot-based training / deployment path
 - Why it matters: 强调 affordability 和 efficiency，适合作为小团队、个人开发者和教育场景里的 VLA 起点。
 
+### AhaRobot
+
+- Link: https://aha-robot.github.io/
+- Type: low-cost open-source humanoid robot platform
+- Why it matters: 补上了“低成本真实机器人平台”这一块，让仓库不只停留在模型和 benchmark，也能连接到真实硬件实践。
+
 ## Simulation / Benchmark
 
 ### ManiSkill
@@ -86,6 +92,12 @@
 - Type: humanoid robot foundation model and development platform
 - Why it matters: 补齐当前列表在人形机器人基础模型和产业级开发平台上的空白，适合跟进 embodied foundation model 的新方向。
 
+### EmbodiedEvalKit
+
+- Link: https://arxiv.org/abs/2606.11324
+- Type: embodied evaluation framework
+- Why it matters: 评测工具往往比单篇论文更容易被忽略，但它正好能把 embodied reasoning、grounding、planning 和 long-horizon evaluation 串成一条可操作的 benchmark 路线。
+
 ## Suggested Starter Projects
 
 ### 1. Run a Robot Manipulation Demo
@@ -106,4 +118,4 @@
 
 ### 5. Low-Cost Real Robot Route
 
-从 `ACT -> Mobile ALOHA -> SmolVLA` 这条线切入，先理解行为克隆和动作分块，再考虑数据采集、部署和真实机器人适配。
+从 `ACT -> Mobile ALOHA -> AhaRobot -> SmolVLA` 这条线切入，先理解行为克隆和动作分块，再考虑低成本硬件、数据采集、部署和真实机器人适配。

@@ -46,10 +46,16 @@
 - Topic: affordable VLA, efficient robotics, low-cost reproduction path
 - Why read: 适合从“普通开发者到底能不能做具身智能复现”这个角度理解一条更现实的工程路径。
 
+### Embodied-R1.5
+
+- Link: [embodied-r1.5-cn.md](embodied-r1.5-cn.md)
+- Topic: embodied foundation model, planning, correction, grounding
+- Why read: 适合理解具身智能为什么开始从“直接预测动作”进一步走向“推理、纠错、执行闭环”的系统能力。
+
 ## 推荐阅读顺序
 
 ```text
-RT-1 -> RT-2 -> Open X-Embodiment -> OpenVLA -> Octo -> pi0 -> SmolVLA
+RT-1 -> RT-2 -> Open X-Embodiment -> OpenVLA -> Octo -> pi0 -> SmolVLA -> Embodied-R1.5
 ```
 
 如果你偏研究，先看模型路线差异。  
