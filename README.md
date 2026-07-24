@@ -25,6 +25,7 @@
 | [开源项目](projects/README.md) | LeRobot、OpenVLA、Octo、SmolVLA、ManiSkill 等 |
 | [数据集](datasets/README.md) | Open X-Embodiment、BridgeData V2、LIBERO 等 |
 | [课程](courses/README.md) | 机器人学习、深度强化学习、具身 AI 相关课程 |
+| [ROS2 + AI 路线](roadmap/ros2-ai-robot-track.md) | 从感知、规划到 ROS2 执行闭环的项目路线 |
 | [中文导读](notes/README.md) | RT-1、RT-2、Open X、OpenVLA、Octo、pi0、SmolVLA、Embodied-R1.5 中文笔记 |
 | [内容选题：低成本路线](content/act-mobile-aloha-smolvla-outline.md) | 一篇聚焦低成本具身智能复现路线的内容大纲 |
 | [内容选题：闭环智能](content/openvla-pi0-embodied-r1-5-outline.md) | 一篇聚焦具身智能从动作预测走向闭环纠错的大纲 |
@@ -98,12 +99,18 @@ Embodied AI
 - 新增中文导读：[SmolVLA](notes/smolvla-cn.md)、[Embodied-R1.5](notes/embodied-r1.5-cn.md)
 - 新增内容选题：[从 ACT、Mobile ALOHA 到 SmolVLA](content/act-mobile-aloha-smolvla-outline.md)、[从 OpenVLA、pi0 到 Embodied-R1.5](content/openvla-pi0-embodied-r1-5-outline.md)
 
+## 新增项目路线
+
+- [ROS2 + AI 机器人项目路线](roadmap/ros2-ai-robot-track.md)
+
+这条路线更偏工程实践，重点是把语音指令、视觉感知、任务规划和 ROS2 节点调度串成一个最小闭环，适合作为 `Robot Agent / ROS2 + AI` 的入门项目骨架。
+
 ## 后续计划
 
 - 整理 100+ 具身智能资源
 - 增加中文论文导读
 - 增加复现难度和硬件需求标注
-- 增加 ROS2 + AI 项目路线
+- 增加更多 ROS2 + AI 实战案例
 - 增加机器人 Agent 项目案例
 
 ## 贡献
