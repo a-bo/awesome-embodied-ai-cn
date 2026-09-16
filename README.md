@@ -25,10 +25,16 @@
 | [开源项目](projects/README.md) | LeRobot、OpenVLA、Octo、SmolVLA、ManiSkill 等 |
 | [数据集](datasets/README.md) | Open X-Embodiment、BridgeData V2、LIBERO 等 |
 | [课程](courses/README.md) | 机器人学习、深度强化学习、具身 AI 相关课程 |
+| [无硬件动作闭环练习](roadmap/ros2-turtlesim-action-lab.md) | ROS2 Jazzy + turtlesim：命令、失败注入与验收记录（未实机验证） |
 | [ROS2 + AI 路线](roadmap/ros2-ai-robot-track.md) | 从感知、规划到 ROS2 执行闭环的项目路线 |
 | [中文导读](notes/README.md) | RT-1、RT-2、Open X、OpenVLA、Octo、pi0、SmolVLA、Embodied-R1.5 中文笔记 |
 | [内容选题：低成本路线](content/act-mobile-aloha-smolvla-outline.md) | 一篇聚焦低成本具身智能复现路线的内容大纲 |
 | [内容选题：闭环智能](content/openvla-pi0-embodied-r1-5-outline.md) | 一篇聚焦具身智能从动作预测走向闭环纠错的大纲 |
+
+## 更新日志
+
+- 2026-09-16：新增 [turtlesim 动作闭环实践](roadmap/ros2-turtlesim-action-lab.md)，覆盖环境、成功路径、失败注入及验收表；附 [中文短帖](content/2026-09-16-ros2-action-loop.md)。本次为文档与源码核验，未运行仿真。
+- 2026-09-16：将过期的“本周新增”标题改为历史资源扩展，避免把既有条目误当成本周成果。
 
 ## 方向地图
 
@@ -90,7 +96,7 @@ Embodied AI
 - [NVIDIA Isaac GR00T](https://developer.nvidia.com/isaac/gr00t)
 - [RoboCasa](https://robocasa.ai/)
 
-## 本周新增
+## 历史资源扩展（保留原条目）
 
 - 新增论文：ACT、SmolVLA、Embodied-R1.5、Embodied.cpp、Uni-LaViRA
 - 新增项目：SmolVLA、Mobile ALOHA、NVIDIA Isaac GR00T、AhaRobot、EmbodiedEvalKit
