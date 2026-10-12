@@ -26,12 +26,16 @@
 | [数据集](datasets/README.md) | Open X-Embodiment、BridgeData V2、LIBERO 等 |
 | [课程](courses/README.md) | 机器人学习、深度强化学习、具身 AI 相关课程 |
 | [无硬件动作闭环练习](roadmap/ros2-turtlesim-action-lab.md) | ROS2 Jazzy + turtlesim：命令、失败注入与验收记录（未实机验证） |
+| [训练前数据审计](roadmap/lerobot-dataset-audit.md) | LeRobot：先检查轨迹、动作、格式、许可证与训练门禁（未运行） |
 | [ROS2 + AI 路线](roadmap/ros2-ai-robot-track.md) | 从感知、规划到 ROS2 执行闭环的项目路线 |
 | [中文导读](notes/README.md) | RT-1、RT-2、Open X、OpenVLA、Octo、pi0、SmolVLA、Embodied-R1.5 中文笔记 |
+| [中文短帖索引](content/README.md) | 与实际仓库更新对应的中文短帖 |
 | [内容选题：低成本路线](content/act-mobile-aloha-smolvla-outline.md) | 一篇聚焦低成本具身智能复现路线的内容大纲 |
 | [内容选题：闭环智能](content/openvla-pi0-embodied-r1-5-outline.md) | 一篇聚焦具身智能从动作预测走向闭环纠错的大纲 |
 
 ## 更新日志
+
+- 2026-10-08：新增 [LeRobot 数据集检查路线](roadmap/lerobot-dataset-audit.md)，提供浏览器/本地两轮审计、v2.1/v3.0 边界和训练前门禁；附 [中文短帖](content/2026-10-08-lerobot-dataset-audit.md)。本次为官方文档核验，未安装 LeRobot、下载数据集、训练或回放机器人。
 
 - 2026-09-16：新增 [turtlesim 动作闭环实践](roadmap/ros2-turtlesim-action-lab.md)，覆盖环境、成功路径、失败注入及验收表；附 [中文短帖](content/2026-09-16-ros2-action-loop.md)。本次为文档与源码核验，未运行仿真。
 - 2026-09-16：将过期的“本周新增”标题改为历史资源扩展，避免把既有条目误当成本周成果。
