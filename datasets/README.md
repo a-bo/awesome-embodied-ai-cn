@@ -2,6 +2,8 @@
 
 具身智能的数据集通常包括机器人轨迹、视觉观察、语言指令、动作序列和任务标签。数据规模和跨平台多样性会直接影响模型泛化能力。
 
+训练前先阅读 [LeRobot 数据集检查路线](../roadmap/lerobot-dataset-audit.md)：先确认轨迹、动作、格式版本、许可证与切分证据，再投入训练资源。
+
 ## Open X-Embodiment
 
 - Paper: https://arxiv.org/abs/2310.08864
