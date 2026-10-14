@@ -26,6 +26,7 @@
 | [数据集](datasets/README.md) | Open X-Embodiment、BridgeData V2、LIBERO 等 |
 | [课程](courses/README.md) | 机器人学习、深度强化学习、具身 AI 相关课程 |
 | [无硬件动作闭环练习](roadmap/ros2-turtlesim-action-lab.md) | ROS2 Jazzy + turtlesim：命令、失败注入与验收记录（未实机验证） |
+| [视觉到动作前的坐标契约](roadmap/ros2-camera-frame-contract.md) | ROS 2：用 `frame_id`、时间戳与 TF 查询守住感知—执行边界（未运行） |
 | [训练前数据审计](roadmap/lerobot-dataset-audit.md) | LeRobot：先检查轨迹、动作、格式、许可证与训练门禁（未运行） |
 | [ROS2 + AI 路线](roadmap/ros2-ai-robot-track.md) | 从感知、规划到 ROS2 执行闭环的项目路线 |
 | [中文导读](notes/README.md) | RT-1、RT-2、Open X、OpenVLA、Octo、pi0、SmolVLA、Embodied-R1.5 中文笔记 |
@@ -34,6 +35,8 @@
 | [内容选题：闭环智能](content/openvla-pi0-embodied-r1-5-outline.md) | 一篇聚焦具身智能从动作预测走向闭环纠错的大纲 |
 
 ## 更新日志
+
+- 2026-10-14：新增 [ROS 2 相机坐标与时间戳检查路线](roadmap/ros2-camera-frame-contract.md)，覆盖 `CameraInfo`、带时间的 TF 查询、候选点门禁和四类失败样本；附 [中文短帖](content/2026-10-14-camera-frame-contract.md)。本次为 ROS 官方文档与消息定义核验，未安装 ROS 2、运行仿真或控制机器人。
 
 - 2026-10-08：新增 [LeRobot 数据集检查路线](roadmap/lerobot-dataset-audit.md)，提供浏览器/本地两轮审计、v2.1/v3.0 边界和训练前门禁；附 [中文短帖](content/2026-10-08-lerobot-dataset-audit.md)。本次为官方文档核验，未安装 LeRobot、下载数据集、训练或回放机器人。
 
