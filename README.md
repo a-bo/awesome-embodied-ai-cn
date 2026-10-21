@@ -29,6 +29,7 @@
 | [视觉到动作前的坐标契约](roadmap/ros2-camera-frame-contract.md) | ROS 2：用 `frame_id`、时间戳与 TF 查询守住感知—执行边界（未运行） |
 | [感知—执行门禁证据模板](roadmap/ros2-camera-frame-evidence-template.md) | ROS 2：用 JSONL 保存候选点、带时间 TF 查询和“不发运动”的拒绝证据（未运行） |
 | [训练前数据审计](roadmap/lerobot-dataset-audit.md) | LeRobot：先检查轨迹、动作、格式、许可证与训练门禁（未运行） |
+| [Isaac Lab 无界面训练前检查](roadmap/isaac-lab-headless-preflight.md) | 固定版本、GPU / 容器权限、日志与 checkpoint 证据，再启动短训练（未运行） |
 | [ROS2 + AI 路线](roadmap/ros2-ai-robot-track.md) | 从感知、规划到 ROS2 执行闭环的项目路线 |
 | [中文导读](notes/README.md) | RT-1、RT-2、Open X、OpenVLA、Octo、pi0、SmolVLA、Embodied-R1.5 中文笔记 |
 | [中文短帖索引](content/README.md) | 与实际仓库更新对应的中文短帖 |
@@ -36,6 +37,8 @@
 | [内容选题：闭环智能](content/openvla-pi0-embodied-r1-5-outline.md) | 一篇聚焦具身智能从动作预测走向闭环纠错的大纲 |
 
 ## 更新日志
+
+- 2026-10-21：新增 [Isaac Lab 无界面训练前检查路线](roadmap/isaac-lab-headless-preflight.md)，明确 release / 镜像、GPU、容器目录权限、headless / video 选择、E0–E5 证据门禁和停止条件；附 [中文短帖](content/2026-10-21-isaac-lab-headless-preflight.md)。本次只核验官方文档与仓库，未安装 Isaac Lab / Isaac Sim、启动容器或训练。
 
 - 2026-10-16：新增 [ROS 2 感知—执行门禁 JSONL 证据模板](roadmap/ros2-camera-frame-evidence-template.md)，补齐四类拒绝样例、离线语义检查与“不发运动”记录；附 [中文短帖](content/2026-10-16-camera-gate-evidence.md)。本次为文档和合成 fixture，不包含 ROS 2、仿真或硬件运行结果。
 
