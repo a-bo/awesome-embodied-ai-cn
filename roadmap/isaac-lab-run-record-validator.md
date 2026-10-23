@@ -51,7 +51,7 @@ node examples/isaac-lab-run-record/validate-run-record.mjs \
 ## 一手来源
 
 - [Isaac Lab Installation](https://isaac-sim.github.io/IsaacLab/main/source/isaaclab/installation.html)：开发与容器安装、镜像和运行用户。
-- [Training with an RL Agent](https://isaac-sim.github.io/IsaacLab/main/source/tutorials/03_envs/run_rl_training.html)：headless、可视化和日志相关训练入口。
+- [Training with an RL Agent](https://isaac-sim.github.io/IsaacLab/main/source/how-to/run_rl_training.html)：headless、可视化和日志相关训练入口。
 - [IsaacLab 官方仓库](https://github.com/isaac-sim/IsaacLab)：目标 release 与变更记录入口。
 
 文档版本会变化；每次真实运行前，都应重新核对目标 release 的官方页面与自己的硬件环境。
