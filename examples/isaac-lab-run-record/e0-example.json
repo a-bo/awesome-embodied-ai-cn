@@ -1,0 +1,20 @@
+{
+  "run_id": "2026-10-23T09-40Z-host-a-e0",
+  "execution_phase": "E0",
+  "isaac_lab_ref_or_image_tag": "replace-with-pinned-release-or-image-tag",
+  "isaac_sim_version": "replace-with-verified-version",
+  "gpu_model": "replace-with-observed-gpu",
+  "nvidia_driver": "replace-with-observed-driver",
+  "visualization_mode": "headless",
+  "task_id": "environment-preflight-only",
+  "command": "replace-with-the-command-actually-run",
+  "started_at": "2026-10-23T09:40:00Z",
+  "outcome": "blocked",
+  "exit_code": 1,
+  "evidence": [{
+    "kind": "log",
+    "path": "replace-with-a-local-log-path",
+    "note": "Example structure only. This fixture is not an Isaac Lab execution record."
+  }],
+  "stop_reason": "Replace with the observed blocker before any training is started."
+}
