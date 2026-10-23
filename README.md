@@ -30,6 +30,7 @@
 | [感知—执行门禁证据模板](roadmap/ros2-camera-frame-evidence-template.md) | ROS 2：用 JSONL 保存候选点、带时间 TF 查询和“不发运动”的拒绝证据（未运行） |
 | [训练前数据审计](roadmap/lerobot-dataset-audit.md) | LeRobot：先检查轨迹、动作、格式、许可证与训练门禁（未运行） |
 | [Isaac Lab 无界面训练前检查](roadmap/isaac-lab-headless-preflight.md) | 固定版本、GPU / 容器权限、日志与 checkpoint 证据，再启动短训练（未运行） |
+| [Isaac Lab 运行记录校验器](roadmap/isaac-lab-run-record-validator.md) | Node.js 离线检查 E0–E5 运行记录、退出码与日志证据字段（仅合成样例已验证） |
 | [ROS2 + AI 路线](roadmap/ros2-ai-robot-track.md) | 从感知、规划到 ROS2 执行闭环的项目路线 |
 | [中文导读](notes/README.md) | RT-1、RT-2、Open X、OpenVLA、Octo、pi0、SmolVLA、Embodied-R1.5 中文笔记 |
 | [中文短帖索引](content/README.md) | 与实际仓库更新对应的中文短帖 |
@@ -37,6 +38,8 @@
 | [内容选题：闭环智能](content/openvla-pi0-embodied-r1-5-outline.md) | 一篇聚焦具身智能从动作预测走向闭环纠错的大纲 |
 
 ## 更新日志
+
+- 2026-10-23：新增 [Isaac Lab 运行记录校验器](roadmap/isaac-lab-run-record-validator.md)，附 E0 合成记录和零依赖 Node.js 校验器，用于检查版本、命令、退出码与日志证据字段；附[中文短帖](content/2026-10-23-isaac-lab-run-record.md)。本次仅运行格式校验，未安装 Isaac Lab / Isaac Sim、启动容器、仿真或训练。
 
 - 2026-10-21：新增 [Isaac Lab 无界面训练前检查路线](roadmap/isaac-lab-headless-preflight.md)，明确 release / 镜像、GPU、容器目录权限、headless / video 选择、E0–E5 证据门禁和停止条件；附 [中文短帖](content/2026-10-21-isaac-lab-headless-preflight.md)。本次只核验官方文档与仓库，未安装 Isaac Lab / Isaac Sim、启动容器或训练。
 
