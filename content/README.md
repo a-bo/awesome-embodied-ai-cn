@@ -4,6 +4,7 @@
 
 | 日期 | 短帖 | 对应实质内容 |
 | --- | --- | --- |
+| 2026-11-06 | [策略失手时，别只说“我接管了一下”](2026-11-06-lerobot-hil-correction-record.md) | [LeRobot 人机接管纠错记录路线](../roadmap/lerobot-hil-correction-record.md) |
 | 2026-11-02 | [第一次让策略碰到真机前，先完成一次“零动作”验收](2026-11-02-lerobot-zero-action-gate.md) | [LeRobot 真机策略部署前的“零动作”验收路线](../roadmap/lerobot-policy-zero-action-gate.md) |
 | 2026-10-23 | [GPU 训练前，先让运行记录经得起追问](2026-10-23-isaac-lab-run-record.md) | [Isaac Lab 运行记录校验器](../roadmap/isaac-lab-run-record-validator.md) |
 | 2026-10-21 | [别先把 GPU 跑满：Isaac Lab 的第一份成果应是环境证据](2026-10-21-isaac-lab-headless-preflight.md) | [Isaac Lab 无界面训练前检查路线](../roadmap/isaac-lab-headless-preflight.md) |
