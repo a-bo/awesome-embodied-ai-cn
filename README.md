@@ -30,6 +30,7 @@
 | [感知—执行门禁证据模板](roadmap/ros2-camera-frame-evidence-template.md) | ROS 2：用 JSONL 保存候选点、带时间 TF 查询和“不发运动”的拒绝证据（未运行） |
 | [训练前数据审计](roadmap/lerobot-dataset-audit.md) | LeRobot：先检查轨迹、动作、格式、许可证与训练门禁（未运行） |
 | [LeRobot 真机策略零动作验收](roadmap/lerobot-policy-zero-action-gate.md) | 在首个策略 action 前，核对现场、标定、观察与 checkpoint 匹配；未运行真机 |
+| [LeRobot 人机接管纠错记录](roadmap/lerobot-hil-correction-record.md) | 记录 policy → human 的暂停、恢复与审查边界；未运行真机 |
 | [Isaac Lab 无界面训练前检查](roadmap/isaac-lab-headless-preflight.md) | 固定版本、GPU / 容器权限、日志与 checkpoint 证据，再启动短训练（未运行） |
 | [Isaac Lab 运行记录校验器](roadmap/isaac-lab-run-record-validator.md) | Node.js 离线检查 E0–E5 运行记录、退出码与日志证据字段（仅合成样例已验证） |
 | [ROS2 + AI 路线](roadmap/ros2-ai-robot-track.md) | 从感知、规划到 ROS2 执行闭环的项目路线 |
@@ -39,6 +40,8 @@
 | [内容选题：闭环智能](content/openvla-pi0-embodied-r1-5-outline.md) | 一篇聚焦具身智能从动作预测走向闭环纠错的大纲 |
 
 ## 更新日志
+
+- 2026-11-06：新增 [LeRobot 人机接管纠错记录路线](roadmap/lerobot-hil-correction-record.md)，区分 corrections-only 与连续记录，提供 S0–S6 流程、segment 化证据、停止条件和训练前审查；附[中文短帖](content/2026-11-06-lerobot-hil-correction-record.md)。本次只核验官方资料，未安装 LeRobot、连接硬件、执行 rollout、采集数据或训练。
 
 - 2026-11-02：新增 [LeRobot 真机策略零动作验收路线](roadmap/lerobot-policy-zero-action-gate.md)，把首次部署拆为现场、身份、标定、静态 observation、策略匹配与受控首动 R0–R5；附[中文短帖](content/2026-11-02-lerobot-zero-action-gate.md)。本次只核验官方资料，未安装 LeRobot、连接硬件、执行 rollout、运行仿真或控制机器人。
 
