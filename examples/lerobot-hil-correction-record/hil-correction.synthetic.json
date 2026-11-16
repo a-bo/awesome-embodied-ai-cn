@@ -1,0 +1,14 @@
+{
+  "attempt_id": "synthetic-2026-11-13-so101-blocked",
+  "status": "aborted",
+  "recording_mode": "corrections_only",
+  "release_or_commit": "replace-with-pinned-release",
+  "policy": {"path": "redacted-policy-reference", "revision": "replace-with-pinned-revision"},
+  "hardware": {"robot_type": "so101_follower", "teleoperator_type": "so101_leader", "calibration_id": "private-reference", "camera_keys": ["top"]},
+  "segments": [
+    {"segment_id": "s01", "controller": "policy", "started_at": "2026-11-13T09:30:10Z", "ended_at": "2026-11-13T09:30:18Z", "outcome": "paused", "trigger": "synthetic_object_left_view"},
+    {"segment_id": "s02", "controller": "human", "started_at": "2026-11-13T09:30:18Z", "ended_at": "2026-11-13T09:30:31Z", "outcome": "aborted", "correction_intent": "synthetic_restore_safe_pose", "review_state": "exclude_pending_review"}
+  ],
+  "evidence": ["synthetic://operator-note", "synthetic://video-reference"],
+  "stop_reason": "synthetic visibility gate not confirmed"
+}
