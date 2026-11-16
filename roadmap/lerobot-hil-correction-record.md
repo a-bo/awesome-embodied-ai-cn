@@ -147,3 +147,5 @@ LeRobot 的 DAgger / human-in-the-loop（HIL）流程允许 policy 与人工在�
 ## 下一步
 
 先将这份 schema 用在一次不产生训练数据的暂停/接管排练中，由现场负责人确认风险边界；再做一个短、低风险、可中止的 HIL 尝试。只有在原始记录、标签和审查结论都齐全时，才把明确通过的 episode 送入后续训练/微调流程。
+
+需要在上传或交接前先做**离线结构检查**时，可使用后续的 [HIL 纠错记录校验器](lerobot-hil-correction-record-validator.md)。该工具只检查合成或脱敏 JSON 的字段关系，不能代替现场安全、视频/日志复核或训练准入审查。
