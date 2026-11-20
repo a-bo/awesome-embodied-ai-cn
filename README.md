@@ -34,6 +34,7 @@
 | [LeRobot HIL 纠错记录校验器](roadmap/lerobot-hil-correction-record-validator.md) | Node.js 离线检查接管记录的状态、时间线、交接顺序与审查字段（仅合成样例已验证） |
 | [Isaac Lab 无界面训练前检查](roadmap/isaac-lab-headless-preflight.md) | 固定版本、GPU / 容器权限、日志与 checkpoint 证据，再启动短训练（未运行） |
 | [Isaac Lab 运行记录校验器](roadmap/isaac-lab-run-record-validator.md) | Node.js 离线检查 E0–E5 运行记录、退出码与日志证据字段（仅合成样例已验证） |
+| [ManiSkill 首个 episode 复查](roadmap/maniskill-first-episode-record.md) | 先固定任务卡、reset、接口契约与结束语义，再比较策略（未运行） |
 | [ROS2 + AI 路线](roadmap/ros2-ai-robot-track.md) | 从感知、规划到 ROS2 执行闭环的项目路线 |
 | [中文导读](notes/README.md) | RT-1、RT-2、Open X、OpenVLA、Octo、pi0、SmolVLA、Embodied-R1.5 中文笔记 |
 | [中文短帖索引](content/README.md) | 与实际仓库更新对应的中文短帖 |
@@ -41,6 +42,8 @@
 | [内容选题：闭环智能](content/openvla-pi0-embodied-r1-5-outline.md) | 一篇聚焦具身智能从动作预测走向闭环纠错的大纲 |
 
 ## 更新日志
+
+- 2026-11-20：新增 [ManiSkill 首个 episode 复查路线](roadmap/maniskill-first-episode-record.md)，用 E0–E4 固定任务卡、版本/资产、观测与控制模式、reset seed、`terminated`/`truncated` 与结论证据；附[中文短帖](content/2026-11-20-maniskill-first-episode.md)。本次仅核验官方资料，未安装 ManiSkill、运行仿真、训练策略、生成视频或控制硬件。
 
 - 2026-11-13：新增 [LeRobot HIL 纠错记录校验器](roadmap/lerobot-hil-correction-record-validator.md)，附完全合成的 `aborted / corrections_only` 样例与 10 个 Node.js 离线验收测试，用于阻止缺字段、断裂时间线、无 trigger 的暂停和不完整人工纠错记录；附[中文短帖](content/2026-11-13-lerobot-hil-record-validator.md)。本次仅核验官方资料并运行合成记录校验，未安装 LeRobot、连接硬件、执行 rollout、暂停/接管、采集数据或训练。
 
