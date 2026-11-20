@@ -40,7 +40,7 @@
 
 建议从这些项目入手：
 
-- ManiSkill
+- ManiSkill（先看 [首个 episode 复查路线](maniskill-first-episode-record.md) 固定 task/reset/结束语义）
 - robosuite
 - LIBERO
 - Isaac Sim / Isaac Lab
